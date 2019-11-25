@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FASHION BLOG</title>
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="https://www.hellofashionblog.com/wp-content/themes/gadabout-base-theme/img/favicon.png">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+<body class="light-grey">
+	<div class="content" style= "max-width:1600px;">
+		<div style="background-color:#4D4648; color:white; padding:20px;">
+
+</head>
+
+<body>
+	
+  <header class="header" style="padding:48; color:white;">
+    <h1 class="large"><b>HIJAB FASHION BLOG</b></h1>
+    <h6>Welcome to the blog of <span class="tag">Adna's world</span></h6>
+  </header>
+
+  <header class="display-container" id="home">
+    <img class="image" src="https://static.fustany.com/images/en/photo/large_Large-Fustany-Trendy-Hijab-Looks-21.jpg" alt="Hijab Fashion Blog" width="460" height="706">
+    <div class="display-left" style="padding:large;">
+      <h1 class="text" style="color:white;">Adna's</h1>
+      <h1 class="text" style="color:white;"><b>FASHION BLOG</b></h1>
+      <h6><button class="button" onclick="document.getElementById('subscribe').style.display='block'">SUBSCRIBE</button></h6>
+    </div>
+  </header>
+
+   
+  <div class="padding-border">
+
+    <div class="col l8 s12">
+    
+      
+      <div class="container padding-large">
+        <div class="center">
+          <h3>TITLE HEADING</h3>
+          <h5>New 2019 Fashion Oversized Luxury Pure Silk Scarf, <span class="opacity">November, 2019</span></h5>
+        </div>
+
+<div class="col">
+          <img src="https://cdn.shopify.com/s/files/1/0070/7821/5780/products/product-image-724431600_720x.jpg?v=1571715297.jpg" alt="Modern scarfs" style="width:50%" class="padding-16">
+          <p><strong>Silk Scarfs!</strong> I am crazy about silk scarfs these days. Winter will be here before you know it, and that means it's time to start thinking about layering up. Scarves are obviously a winter wardrobe essential, but with so many different styles and designs to pick from, it can be hard to choose the right one for you. That's why I rounded up the absolute best fall scarves for women that range from lighter pieces to heavier shawls. There are classic options like oversized, silk, and plaid, as well as few surprising pieces, including one that comes with a secret zipper pocket (trust me, you're going to love it).</p>
+          <p> Remember: A great scarf is a fun way of mixing in bold prints and autumnal colors into your already stylish outfits.</p>
+          <p class="left"><button class="button white border" onclick="likeFun(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="right"><button class="button black" onclick="myFun('demo1')" id="dugme"><b>Replies  </b> <span class="tag white">3</span></button></p>
+          <p class="clear"></p>
+          <div class="row margin bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="col l2 m3">
+                <img src="/images/avatar_smoke.jpg" style="width:90px;">
+              </div>
+              <div class="col l10 m9">
+                <h4> Esma <span class="opacity medium">October, 2019, 9:26 AM</span></h4>
+                <p>Great blog post! Following</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+<script>
+document.getElementById("dugme").click();
+function myFun(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("show") == -1) {
+    x.className += " show";
+  } else { 
+    x.className = x.className.replace(" show", "");
+  }
+}
+
+function likeFun(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
